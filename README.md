@@ -11,7 +11,6 @@ The project is designed for:
 - sales trend analysis
 - regional performance comparison
 - product/category performance review
-- KPI monitoring in a dashboard format
 - quick business reporting without writing custom code
 
 ## Repository Contents
@@ -23,19 +22,6 @@ The project is designed for:
 ## Dashboard Preview
 
 ![Sales Dashboard Preview](./Screenshot.png)
-
-## Functions Used in the Dashboard
-
-The dashboard mainly uses Power BI DAX functions for calculations, filtering, and reporting, including:
-
-- `SUM()` — calculates total sales values
-- `CALCULATE()` — changes the filter context for dynamic calculations
-- `AVERAGE()` — computes average sales and performance metrics
-- `DISTINCTCOUNT()` — counts unique products, customers, or regions
-- `FILTER()` — narrows the dataset based on user-defined conditions
-- `IF()` — applies conditional logic in KPI and visual calculations
-- `TOTALYTD()` — calculates year-to-date totals
-- `FORMAT()` — formats values for clearer presentation in visuals
 
 ## Data Source
 
