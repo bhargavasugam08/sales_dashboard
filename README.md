@@ -24,14 +24,18 @@ The project is designed for:
 
 ![Sales Dashboard Preview](./Screenshot.png)
 
-## Key Features
+## Functions Used in the Dashboard
 
-- Interactive Power BI dashboard
-- Sales performance tracking over time
-- Regional and category-based analysis
-- KPI-focused visual summaries
-- Easy-to-use report structure for business stakeholders
-- Data-driven insights from structured Excel sales data
+The dashboard mainly uses Power BI DAX functions for calculations, filtering, and reporting, including:
+
+- `SUM()` — calculates total sales values
+- `CALCULATE()` — changes the filter context for dynamic calculations
+- `AVERAGE()` — computes average sales and performance metrics
+- `DISTINCTCOUNT()` — counts unique products, customers, or regions
+- `FILTER()` — narrows the dataset based on user-defined conditions
+- `IF()` — applies conditional logic in KPI and visual calculations
+- `TOTALYTD()` — calculates year-to-date totals
+- `FORMAT()` — formats values for clearer presentation in visuals
 
 ## Data Source
 
@@ -55,15 +59,3 @@ The dashboard uses the Excel workbook `Complete_Techno_Sales_Data-2 (1).xlsx`, w
 - Comparing sales across regions or product lines
 - Identifying top-performing segments
 - Sharing business insights with stakeholders through a visual report
-
-## Project Status
-
-This project is a dashboard/reporting artifact intended for data analysis and presentation. It is ready to open and explore in Power BI Desktop.
-
-## License
-
-This project does not include a separate license file. If you plan to reuse or distribute the dashboard, please check with the repository owner before using it in commercial or public workflows.
-
-## Author
-
-Created and maintained in this GitHub repository.
